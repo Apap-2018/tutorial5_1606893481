@@ -1,0 +1,3 @@
+1. untuk membuat fragment navbar dinamis saya menambahkan parameter pagename pada navbar fragment. kemudian di setiap template diberikan parameter namepage sesuai nama page.
+
+2. saya membuat class FlightToAdd yang berisi List object FlightModel dan PilotModel pilot. FlightToAdd di inisiasi ketika membuka pageflight/add/{licensenumber}. Kemudian, ketika memencet Add Row, method addRow dilaksanakan dimana FlightModel baru ditambahkan kedalam list kemudian me return halaman yang sama. Ketika semua field terisi (kecuali attribute Pilot) maka dilakukan submit dimana list FLightToAdd di iterasi dan satu satu di set pilotnya kemudian dimasukkan ke database.
